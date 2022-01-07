@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇭🇰 HKG 01, server: 122.9.206.208, port: 11001, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: 🇭🇰 HKG 02, server: 122.9.206.208, port: 11002, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
@@ -48,67 +48,67 @@ proxies:
   - {name: 🇸🇬 SGP 16, server: 122.9.206.208, port: 11116, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: 🇸🇬 SGP 17, server: 122.9.206.208, port: 11117, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: 🇸🇬 SGP 18, server: 122.9.206.208, port: 11118, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇰🇷 KOR 01, server: 162.14.11.97, port: 11151, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇰🇷 KOR 02, server: 162.14.11.97, port: 11152, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 01, server: 162.14.11.97, port: 11201, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 02, server: 162.14.11.97, port: 11202, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 03, server: 162.14.11.97, port: 11203, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 04, server: 162.14.11.97, port: 11204, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 05, server: 162.14.11.97, port: 11205, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 06, server: 162.14.11.97, port: 11206, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 07, server: 162.14.11.97, port: 11207, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 08, server: 162.14.11.97, port: 11208, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 09, server: 162.14.11.97, port: 11209, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 10, server: 162.14.11.97, port: 11210, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 11, server: 162.14.11.97, port: 11211, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 12, server: 162.14.11.97, port: 11212, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 13, server: 162.14.11.97, port: 11213, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 14, server: 162.14.11.97, port: 11214, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 15, server: 162.14.11.97, port: 11215, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 16, server: 162.14.11.97, port: 11216, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 17, server: 162.14.11.97, port: 11217, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JPN 18, server: 162.14.11.97, port: 11218, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 01, server: 162.14.11.97, port: 11251, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 02, server: 162.14.11.97, port: 11252, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 03, server: 162.14.11.97, port: 11253, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 04, server: 162.14.11.97, port: 11254, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 05, server: 162.14.11.97, port: 11255, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 06, server: 162.14.11.97, port: 11256, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 07, server: 162.14.11.97, port: 11257, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 08, server: 162.14.11.97, port: 11258, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 09, server: 162.14.11.97, port: 11259, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 10, server: 162.14.11.97, port: 11260, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 11, server: 162.14.11.97, port: 11261, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 12, server: 162.14.11.97, port: 11262, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 13, server: 162.14.11.97, port: 11263, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 14, server: 162.14.11.97, port: 11264, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 15, server: 162.14.11.97, port: 11265, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 USA 16, server: 162.14.11.97, port: 11266, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇰🇷 KOR 01, server: 42.157.161.39, port: 11151, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇰🇷 KOR 02, server: 42.157.161.39, port: 11152, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 01, server: 42.157.161.39, port: 11201, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 02, server: 42.157.161.39, port: 11202, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 03, server: 42.157.161.39, port: 11203, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 04, server: 42.157.161.39, port: 11204, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 05, server: 42.157.161.39, port: 11205, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 06, server: 42.157.161.39, port: 11206, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 07, server: 42.157.161.39, port: 11207, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 08, server: 42.157.161.39, port: 11208, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 09, server: 42.157.161.39, port: 11209, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 10, server: 42.157.161.39, port: 11210, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 11, server: 42.157.161.39, port: 11211, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 12, server: 42.157.161.39, port: 11212, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 13, server: 42.157.161.39, port: 11213, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 14, server: 42.157.161.39, port: 11214, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 15, server: 42.157.161.39, port: 11215, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 16, server: 42.157.161.39, port: 11216, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 17, server: 42.157.161.39, port: 11217, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇯🇵 JPN 18, server: 42.157.161.39, port: 11218, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 01, server: 42.157.161.39, port: 11251, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 02, server: 42.157.161.39, port: 11252, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 03, server: 42.157.161.39, port: 11253, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 04, server: 42.157.161.39, port: 11254, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 05, server: 42.157.161.39, port: 11255, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 06, server: 42.157.161.39, port: 11256, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 07, server: 42.157.161.39, port: 11257, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 08, server: 42.157.161.39, port: 11258, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 09, server: 42.157.161.39, port: 11259, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 10, server: 42.157.161.39, port: 11260, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 11, server: 42.157.161.39, port: 11261, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 12, server: 42.157.161.39, port: 11262, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 13, server: 42.157.161.39, port: 11263, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 14, server: 42.157.161.39, port: 11264, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 15, server: 42.157.161.39, port: 11265, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇺🇲 USA 16, server: 42.157.161.39, port: 11266, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: IND 01, server: 122.9.206.208, port: 11301, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: IND 02, server: 122.9.206.208, port: 11302, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: 🇺🇸 AUS 01, server: 122.9.206.208, port: 11351, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: DEU 01, server: 122.9.206.208, port: 11401, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: DEU 02, server: 122.9.206.208, port: 11402, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: DEU 03, server: 122.9.206.208, port: 11403, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: DEU 04, server: 122.9.206.208, port: 11404, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: DEU 05, server: 122.9.206.208, port: 11405, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: DEU 06, server: 122.9.206.208, port: 11406, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: FRA 01, server: 122.9.206.208, port: 11451, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇦🇺 AUS 01, server: 122.9.206.208, port: 11351, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇩🇪 DEU 01, server: 122.9.206.208, port: 11401, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇩🇪 DEU 02, server: 122.9.206.208, port: 11402, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇩🇪 DEU 03, server: 122.9.206.208, port: 11403, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇩🇪 DEU 04, server: 122.9.206.208, port: 11404, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇩🇪 DEU 05, server: 122.9.206.208, port: 11405, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇩🇪 DEU 06, server: 122.9.206.208, port: 11406, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇫🇷 FRA 01, server: 122.9.206.208, port: 11451, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: POL 01, server: 122.9.206.208, port: 11501, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: NLD 01, server: 122.9.206.208, port: 11551, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: NLD 02, server: 122.9.206.208, port: 11552, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: NLD 03, server: 122.9.206.208, port: 11553, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: ESP 01, server: 122.9.206.208, port: 11601, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇳🇱 NLD 01, server: 122.9.206.208, port: 11551, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇳🇱 NLD 02, server: 122.9.206.208, port: 11552, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇳🇱 NLD 03, server: 122.9.206.208, port: 11553, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇪🇸 ESP 01, server: 122.9.206.208, port: 11601, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: 🇷🇺 RUS 01, server: 122.9.206.208, port: 11651, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: 🇷🇺 RUS 02, server: 122.9.206.208, port: 11652, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: ISL 01, server: 122.9.206.208, port: 11701, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
   - {name: DNK 01, server: 122.9.206.208, port: 11751, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: CAN 01, server: 162.14.11.97, port: 11801, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: CAN 02, server: 162.14.11.97, port: 11802, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: GBR 01, server: 122.9.206.208, port: 11851, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: GBR 02, server: 122.9.206.208, port: 11852, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: GBR 03, server: 122.9.206.208, port: 11853, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
-  - {name: GBR 04, server: 122.9.206.208, port: 11854, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: CAN 01, server: 42.157.161.39, port: 11801, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: CAN 02, server: 42.157.161.39, port: 11802, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇧🇷 GBR 01, server: 122.9.206.208, port: 11851, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇧🇷 GBR 02, server: 122.9.206.208, port: 11852, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇧🇷 GBR 03, server: 122.9.206.208, port: 11853, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
+  - {name: 🇧🇷 GBR 04, server: 122.9.206.208, port: 11854, type: ss, cipher: chacha20-ietf, password: 25f1093328b9a174, plugin: obfs, plugin-opts: {mode: http, host: 3cb436232f.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -188,52 +188,51 @@ proxy-groups:
       - 🇯🇵 JPN 16
       - 🇯🇵 JPN 17
       - 🇯🇵 JPN 18
-      - 🇺🇸 USA 01
-      - 🇺🇸 USA 02
-      - 🇺🇸 USA 03
-      - 🇺🇸 USA 04
-      - 🇺🇸 USA 05
-      - 🇺🇸 USA 06
-      - 🇺🇸 USA 07
-      - 🇺🇸 USA 08
-      - 🇺🇸 USA 09
-      - 🇺🇸 USA 10
-      - 🇺🇸 USA 11
-      - 🇺🇸 USA 12
-      - 🇺🇸 USA 13
-      - 🇺🇸 USA 14
-      - 🇺🇸 USA 15
-      - 🇺🇸 USA 16
+      - 🇺🇲 USA 01
+      - 🇺🇲 USA 02
+      - 🇺🇲 USA 03
+      - 🇺🇲 USA 04
+      - 🇺🇲 USA 05
+      - 🇺🇲 USA 06
+      - 🇺🇲 USA 07
+      - 🇺🇲 USA 08
+      - 🇺🇲 USA 09
+      - 🇺🇲 USA 10
+      - 🇺🇲 USA 11
+      - 🇺🇲 USA 12
+      - 🇺🇲 USA 13
+      - 🇺🇲 USA 14
+      - 🇺🇲 USA 15
+      - 🇺🇲 USA 16
       - IND 01
       - IND 02
-      - 🇺🇸 AUS 01
-      - DEU 01
-      - DEU 02
-      - DEU 03
-      - DEU 04
-      - DEU 05
-      - DEU 06
-      - FRA 01
+      - 🇦🇺 AUS 01
+      - 🇩🇪 DEU 01
+      - 🇩🇪 DEU 02
+      - 🇩🇪 DEU 03
+      - 🇩🇪 DEU 04
+      - 🇩🇪 DEU 05
+      - 🇩🇪 DEU 06
+      - 🇫🇷 FRA 01
       - POL 01
-      - NLD 01
-      - NLD 02
-      - NLD 03
-      - ESP 01
+      - 🇳🇱 NLD 01
+      - 🇳🇱 NLD 02
+      - 🇳🇱 NLD 03
+      - 🇪🇸 ESP 01
       - 🇷🇺 RUS 01
       - 🇷🇺 RUS 02
       - ISL 01
       - DNK 01
       - CAN 01
       - CAN 02
-      - GBR 01
-      - GBR 02
-      - GBR 03
-      - GBR 04
+      - 🇧🇷 GBR 01
+      - 🇧🇷 GBR 02
+      - 🇧🇷 GBR 03
+      - 🇧🇷 GBR 04
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - 🇭🇰 HKG 01
       - 🇭🇰 HKG 02
@@ -298,47 +297,47 @@ proxy-groups:
       - 🇯🇵 JPN 16
       - 🇯🇵 JPN 17
       - 🇯🇵 JPN 18
-      - 🇺🇸 USA 01
-      - 🇺🇸 USA 02
-      - 🇺🇸 USA 03
-      - 🇺🇸 USA 04
-      - 🇺🇸 USA 05
-      - 🇺🇸 USA 06
-      - 🇺🇸 USA 07
-      - 🇺🇸 USA 08
-      - 🇺🇸 USA 09
-      - 🇺🇸 USA 10
-      - 🇺🇸 USA 11
-      - 🇺🇸 USA 12
-      - 🇺🇸 USA 13
-      - 🇺🇸 USA 14
-      - 🇺🇸 USA 15
-      - 🇺🇸 USA 16
+      - 🇺🇲 USA 01
+      - 🇺🇲 USA 02
+      - 🇺🇲 USA 03
+      - 🇺🇲 USA 04
+      - 🇺🇲 USA 05
+      - 🇺🇲 USA 06
+      - 🇺🇲 USA 07
+      - 🇺🇲 USA 08
+      - 🇺🇲 USA 09
+      - 🇺🇲 USA 10
+      - 🇺🇲 USA 11
+      - 🇺🇲 USA 12
+      - 🇺🇲 USA 13
+      - 🇺🇲 USA 14
+      - 🇺🇲 USA 15
+      - 🇺🇲 USA 16
       - IND 01
       - IND 02
-      - 🇺🇸 AUS 01
-      - DEU 01
-      - DEU 02
-      - DEU 03
-      - DEU 04
-      - DEU 05
-      - DEU 06
-      - FRA 01
+      - 🇦🇺 AUS 01
+      - 🇩🇪 DEU 01
+      - 🇩🇪 DEU 02
+      - 🇩🇪 DEU 03
+      - 🇩🇪 DEU 04
+      - 🇩🇪 DEU 05
+      - 🇩🇪 DEU 06
+      - 🇫🇷 FRA 01
       - POL 01
-      - NLD 01
-      - NLD 02
-      - NLD 03
-      - ESP 01
+      - 🇳🇱 NLD 01
+      - 🇳🇱 NLD 02
+      - 🇳🇱 NLD 03
+      - 🇪🇸 ESP 01
       - 🇷🇺 RUS 01
       - 🇷🇺 RUS 02
       - ISL 01
       - DNK 01
       - CAN 01
       - CAN 02
-      - GBR 01
-      - GBR 02
-      - GBR 03
-      - GBR 04
+      - 🇧🇷 GBR 01
+      - 🇧🇷 GBR 02
+      - 🇧🇷 GBR 03
+      - 🇧🇷 GBR 04
   - name: 📲 电报消息
     type: select
     proxies:
@@ -513,7 +512,6 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - 🇭🇰 HKG 01
       - 🇭🇰 HKG 02
@@ -539,7 +537,6 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - 🇯🇵 JPN 01
       - 🇯🇵 JPN 02
@@ -563,32 +560,30 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 150
     proxies:
-      - 🇺🇸 USA 01
-      - 🇺🇸 USA 02
-      - 🇺🇸 USA 03
-      - 🇺🇸 USA 04
-      - 🇺🇸 USA 05
-      - 🇺🇸 USA 06
-      - 🇺🇸 USA 07
-      - 🇺🇸 USA 08
-      - 🇺🇸 USA 09
-      - 🇺🇸 USA 10
-      - 🇺🇸 USA 11
-      - 🇺🇸 USA 12
-      - 🇺🇸 USA 13
-      - 🇺🇸 USA 14
-      - 🇺🇸 USA 15
-      - 🇺🇸 USA 16
-      - 🇺🇸 AUS 01
+      - 🇺🇲 USA 01
+      - 🇺🇲 USA 02
+      - 🇺🇲 USA 03
+      - 🇺🇲 USA 04
+      - 🇺🇲 USA 05
+      - 🇺🇲 USA 06
+      - 🇺🇲 USA 07
+      - 🇺🇲 USA 08
+      - 🇺🇲 USA 09
+      - 🇺🇲 USA 10
+      - 🇺🇲 USA 11
+      - 🇺🇲 USA 12
+      - 🇺🇲 USA 13
+      - 🇺🇲 USA 14
+      - 🇺🇲 USA 15
+      - 🇺🇲 USA 16
+      - 🇦🇺 AUS 01
       - 🇷🇺 RUS 01
       - 🇷🇺 RUS 02
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - 🇨🇳 TWN 01
       - 🇨🇳 TWN 02
@@ -599,7 +594,6 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - 🇸🇬 SGP 01
       - 🇸🇬 SGP 02
@@ -623,7 +617,6 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
       - 🇰🇷 KOR 01
       - 🇰🇷 KOR 02
@@ -631,6 +624,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+
 rules:
  - DOMAIN-SUFFIX,immtel.com,🚀 节点选择
  - DOMAIN-SUFFIX,hxcy.moe,🎯 全球直连
