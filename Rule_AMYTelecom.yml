@@ -5,416 +5,47 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇭🇰 香港 01
-    server: 162.14.22.20
-    port: 9300
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 02
-    server: 162.14.22.20
-    port: 9305
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 03
-    server: 162.14.22.20
-    port: 9310
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 04
-    server: 162.14.22.20
-    port: 9315
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 05
-    server: 162.14.21.250
-    port: 9320
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 06
-    server: 162.14.21.250
-    port: 9325
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 07
-    server: 162.14.21.250
-    port: 9330
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 08
-    server: 162.14.21.250
-    port: 9335
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 09
-    server: 162.14.21.250
-    port: 9340
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 10
-    server: 162.14.22.20
-    port: 9345
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇭🇰 香港 11
-    server: 162.14.22.20
-    port: 9350
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 01
-    server: 162.14.15.87
-    port: 9100
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 02
-    server: 162.14.15.87
-    port: 9105
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 03
-    server: 162.14.15.87
-    port: 9110
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 04
-    server: 162.14.15.87
-    port: 9115
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 05
-    server: 162.14.15.87
-    port: 9120
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 06
-    server: 162.14.8.61
-    port: 9125
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 07
-    server: 162.14.8.61
-    port: 9130
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 08
-    server: 162.14.8.61
-    port: 9135
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 09
-    server: 162.14.8.61
-    port: 9140
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 10
-    server: 162.14.8.61
-    port: 9145
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 11
-    server: 162.14.8.61
-    port: 9150
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 12
-    server: 162.14.15.87
-    port: 9155
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇺🇲 美国 13
-    server: 162.14.15.87
-    port: 9160
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 01
-    server: 162.14.15.87
-    port: 9002
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 02
-    server: 162.14.15.87
-    port: 9005
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 03
-    server: 162.14.15.87
-    port: 9010
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 04
-    server: 162.14.15.87
-    port: 9015
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 05
-    server: 162.14.8.61
-    port: 9020
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 06
-    server: 162.14.8.61
-    port: 9025
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 07
-    server: 162.14.8.61
-    port: 9030
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇯🇵 日本 08
-    server: 162.14.8.61
-    port: 9035
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇨🇳 台湾 01
-    server: 162.14.22.20
-    port: 9355
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇨🇳 台湾 02
-    server: 162.14.22.20
-    port: 9360
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇨🇳 台湾 03
-    server: 162.14.21.250
-    port: 9365
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇨🇳 台湾 04
-    server: 162.14.21.250
-    port: 9370
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇨🇳 台湾 05
-    server: 162.14.22.20
-    port: 9375
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇸🇬 新加坡 01
-    server: 162.14.22.20
-    port: 9380
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇸🇬 新加坡 02
-    server: 162.14.22.20
-    port: 9385
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇸🇬 新加坡 03
-    server: 162.14.21.250
-    port: 9390
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
-  - name: 🇸🇬 新加坡 04
-    server: 162.14.21.250
-    port: 9395
-    type: ss
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 32950-XUf272tec7.download.microsoft.com
+  - {name: 🇭🇰 香港 01, server: 122.9.103.97, port: 9300, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 02, server: 122.9.103.97, port: 9305, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 03, server: 122.9.103.97, port: 9310, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 04, server: 122.9.103.97, port: 9315, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 05, server: 122.9.122.187, port: 9320, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 06, server: 122.9.122.187, port: 9325, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 07, server: 122.9.122.187, port: 9330, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 08, server: 122.9.122.187, port: 9335, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 09, server: 122.9.122.187, port: 9340, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 10, server: 122.9.103.97, port: 9345, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 11, server: 122.9.103.97, port: 9350, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 01, server: 42.157.161.22, port: 9100, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 02, server: 42.157.161.22, port: 9105, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 03, server: 42.157.161.22, port: 9110, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 04, server: 42.157.161.22, port: 9115, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 05, server: 42.157.161.22, port: 9120, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 06, server: 42.157.161.54, port: 9125, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 07, server: 42.157.161.54, port: 9130, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 08, server: 42.157.161.54, port: 9135, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 09, server: 42.157.161.54, port: 9140, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 10, server: 42.157.161.54, port: 9145, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 11, server: 42.157.161.54, port: 9150, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 12, server: 42.157.161.22, port: 9155, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇺🇲 美国 13, server: 42.157.161.22, port: 9160, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 01, server: 42.157.161.22, port: 9002, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 02, server: 42.157.161.22, port: 9005, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 03, server: 42.157.161.22, port: 9010, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 04, server: 42.157.161.22, port: 9015, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 05, server: 42.157.161.54, port: 9020, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 06, server: 42.157.161.54, port: 9025, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 07, server: 42.157.161.54, port: 9030, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 08, server: 42.157.161.54, port: 9035, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 01, server: 122.9.103.97, port: 9355, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 02, server: 122.9.103.97, port: 9360, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 03, server: 122.9.122.187, port: 9365, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 04, server: 122.9.122.187, port: 9370, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 05, server: 122.9.103.97, port: 9375, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: 122.9.103.97, port: 9380, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: 122.9.103.97, port: 9385, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: 122.9.122.187, port: 9390, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 04, server: 122.9.122.187, port: 9395, type: ss, cipher: chacha20-ietf, password: AmyTelecom_11451419I981O, plugin: obfs, plugin-opts: {mode: http, host: 32950-XUf272tec7.download.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
