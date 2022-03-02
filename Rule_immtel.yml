@@ -115,7 +115,6 @@ proxies:
   - {name: TUR 02, server: 122.9.207.166, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: IDN 01, server: 122.9.207.166, port: 11905, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 🇻🇳 VNM 01, server: 122.9.207.166, port: 11906, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -236,6 +235,12 @@ proxy-groups:
       - 🇧🇷 GBR 02
       - 🇧🇷 GBR 03
       - 🇧🇷 GBR 04
+      - 🇵🇭 PHL 01
+      - 🇹🇭 THA 01
+      - TUR 01
+      - TUR 02
+      - IDN 01
+      - 🇻🇳 VNM 01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -345,6 +350,13 @@ proxy-groups:
       - 🇧🇷 GBR 02
       - 🇧🇷 GBR 03
       - 🇧🇷 GBR 04
+      - 🇵🇭 PHL 01
+      - 🇹🇭 THA 01
+      - TUR 01
+      - TUR 02
+      - IDN 01
+      - 🇻🇳 VNM 01
+      
   - name: 📲 电报消息
     type: select
     proxies:
