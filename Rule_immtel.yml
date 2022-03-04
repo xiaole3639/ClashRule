@@ -5,49 +5,49 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 HKG 01, server: 122.9.207.166, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 02, server: 122.9.207.166, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 03, server: 122.9.207.166, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 04, server: 122.9.207.166, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 05, server: 122.9.207.166, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 06, server: 122.9.207.166, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 07, server: 122.9.207.166, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 08, server: 122.9.207.166, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 09, server: 122.9.207.166, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 10, server: 122.9.207.166, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 11, server: 122.9.207.166, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 12, server: 122.9.207.166, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 13, server: 122.9.207.166, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 14, server: 122.9.207.166, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 15, server: 122.9.207.166, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 16, server: 122.9.207.166, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 17, server: 122.9.207.166, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 18, server: 122.9.207.166, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 19, server: 122.9.207.166, port: 11019, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇭🇰 HKG 20, server: 122.9.207.166, port: 11020, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇨🇳 TWN 01, server: 122.9.207.166, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇨🇳 TWN 02, server: 122.9.207.166, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇨🇳 TWN 03, server: 122.9.207.166, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇨🇳 TWN 04, server: 122.9.207.166, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇨🇳 TWN 05, server: 122.9.207.166, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 01, server: 122.9.207.166, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 02, server: 122.9.207.166, port: 11102, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 03, server: 122.9.207.166, port: 11103, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 04, server: 122.9.207.166, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 05, server: 122.9.207.166, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 06, server: 122.9.207.166, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 07, server: 122.9.207.166, port: 11107, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 08, server: 122.9.207.166, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 09, server: 122.9.207.166, port: 11109, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 10, server: 122.9.207.166, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 11, server: 122.9.207.166, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 12, server: 122.9.207.166, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 13, server: 122.9.207.166, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 14, server: 122.9.207.166, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 15, server: 122.9.207.166, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 16, server: 122.9.207.166, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 17, server: 122.9.207.166, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇸🇬 SGP 18, server: 122.9.207.166, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 01, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 02, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 03, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 04, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 05, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 06, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 07, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 08, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 09, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 10, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 11, server: 211.99.115.24, port: 11011, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 12, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 13, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 14, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 15, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 16, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 17, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 18, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 19, server: 211.99.115.24, port: 11019, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇭🇰 HKG 20, server: 211.99.115.24, port: 11020, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇨🇳 TWN 01, server: 211.99.115.24, port: 11051, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇨🇳 TWN 02, server: 211.99.115.24, port: 11052, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇨🇳 TWN 03, server: 211.99.115.24, port: 11053, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇨🇳 TWN 04, server: 211.99.115.24, port: 11054, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇨🇳 TWN 05, server: 211.99.115.24, port: 11055, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 01, server: 211.99.115.24, port: 11101, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 02, server: 211.99.115.24, port: 11102, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 03, server: 211.99.115.24, port: 11103, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 04, server: 211.99.115.24, port: 11104, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 05, server: 211.99.115.24, port: 11105, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 06, server: 211.99.115.24, port: 11106, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 07, server: 211.99.115.24, port: 11107, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 08, server: 211.99.115.24, port: 11108, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 09, server: 211.99.115.24, port: 11109, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 10, server: 211.99.115.24, port: 11110, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 11, server: 211.99.115.24, port: 11111, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 12, server: 211.99.115.24, port: 11112, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 13, server: 211.99.115.24, port: 11113, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 14, server: 211.99.115.24, port: 11114, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 15, server: 211.99.115.24, port: 11115, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 16, server: 211.99.115.24, port: 11116, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 17, server: 211.99.115.24, port: 11117, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇸🇬 SGP 18, server: 211.99.115.24, port: 11118, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 🇰🇷 KOR 01, server: 42.157.161.51, port: 11151, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 🇰🇷 KOR 02, server: 42.157.161.51, port: 11152, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 🇯🇵 JPN 01, server: 42.157.161.51, port: 11201, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
@@ -84,37 +84,37 @@ proxies:
   - {name: 🇺🇲 USA 14, server: 42.157.161.51, port: 11264, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 🇺🇲 USA 15, server: 42.157.161.51, port: 11265, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: 🇺🇲 USA 16, server: 42.157.161.51, port: 11266, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: IND 01, server: 122.9.207.166, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: IND 02, server: 122.9.207.166, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇦🇺 AUS 01, server: 122.9.207.166, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇩🇪 DEU 01, server: 122.9.207.166, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇩🇪 DEU 02, server: 122.9.207.166, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇩🇪 DEU 03, server: 122.9.207.166, port: 11403, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇩🇪 DEU 04, server: 122.9.207.166, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇩🇪 DEU 05, server: 122.9.207.166, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇩🇪 DEU 06, server: 122.9.207.166, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇫🇷 FRA 01, server: 122.9.207.166, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: POL 01, server: 122.9.207.166, port: 11501, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇳🇱 NLD 01, server: 122.9.207.166, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇳🇱 NLD 02, server: 122.9.207.166, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇳🇱 NLD 03, server: 122.9.207.166, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇪🇸 ESP 01, server: 122.9.207.166, port: 11601, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇷🇺 RUS 01, server: 122.9.207.166, port: 11651, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇷🇺 RUS 02, server: 122.9.207.166, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: ISL 01, server: 122.9.207.166, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: DNK 01, server: 122.9.207.166, port: 11751, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: IND 01, server: 211.99.115.24, port: 11301, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: IND 02, server: 211.99.115.24, port: 11302, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇦🇺 AUS 01, server: 211.99.115.24, port: 11351, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇩🇪 DEU 01, server: 211.99.115.24, port: 11401, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇩🇪 DEU 02, server: 211.99.115.24, port: 11402, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇩🇪 DEU 03, server: 211.99.115.24, port: 11403, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇩🇪 DEU 04, server: 211.99.115.24, port: 11404, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇩🇪 DEU 05, server: 211.99.115.24, port: 11405, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇩🇪 DEU 06, server: 211.99.115.24, port: 11406, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇫🇷 FRA 01, server: 211.99.115.24, port: 11451, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: POL 01, server: 211.99.115.24, port: 11501, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇳🇱 NLD 01, server: 211.99.115.24, port: 11551, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇳🇱 NLD 02, server: 211.99.115.24, port: 11552, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇳🇱 NLD 03, server: 211.99.115.24, port: 11553, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇪🇸 ESP 01, server: 211.99.115.24, port: 11601, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇷🇺 RUS 01, server: 211.99.115.24, port: 11651, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇷🇺 RUS 02, server: 211.99.115.24, port: 11652, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: ISL 01, server: 211.99.115.24, port: 11701, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: DNK 01, server: 211.99.115.24, port: 11751, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: CAN 01, server: 42.157.161.51, port: 11801, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
   - {name: CAN 02, server: 42.157.161.51, port: 11802, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇧🇷 GBR 01, server: 122.9.207.166, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇧🇷 GBR 02, server: 122.9.207.166, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇧🇷 GBR 03, server: 122.9.207.166, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇧🇷 GBR 04, server: 122.9.207.166, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇵🇭 PHL 01, server: 122.9.207.166, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇹🇭 THA 01, server: 122.9.207.166, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: TUR 01, server: 122.9.207.166, port: 11903, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: TUR 02, server: 122.9.207.166, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: IDN 01, server: 122.9.207.166, port: 11905, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: 🇻🇳 VNM 01, server: 122.9.207.166, port: 11906, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇧🇷 GBR 01, server: 211.99.115.24, port: 11851, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇧🇷 GBR 02, server: 211.99.115.24, port: 11852, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇧🇷 GBR 03, server: 211.99.115.24, port: 11853, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇧🇷 GBR 04, server: 211.99.115.24, port: 11854, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇵🇭 PHL 01, server: 211.99.115.24, port: 11901, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇹🇭 THA 01, server: 211.99.115.24, port: 11902, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: TUR 01, server: 211.99.115.24, port: 11903, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: TUR 02, server: 211.99.115.24, port: 11904, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: IDN 01, server: 211.99.115.24, port: 11905, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: 🇻🇳 VNM 01, server: 211.99.115.24, port: 11906, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -356,7 +356,7 @@ proxy-groups:
       - TUR 02
       - IDN 01
       - 🇻🇳 VNM 01
-      
+
   - name: 📲 电报消息
     type: select
     proxies:
