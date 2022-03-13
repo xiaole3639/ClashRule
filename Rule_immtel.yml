@@ -645,6 +645,7 @@ proxy-groups:
       - DIRECT
       
 rules:
+ - DOMAIN-SUFFIX,akamaized.net,📺 巴哈姆特
  - DOMAIN-SUFFIX,yesno.wtf,🚀 节点选择
  - DOMAIN-SUFFIX,immtel.com,🚀 节点选择
  - DOMAIN-SUFFIX,hxcy.moe,🎯 全球直连
