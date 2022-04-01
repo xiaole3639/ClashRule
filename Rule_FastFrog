@@ -98,7 +98,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
@@ -199,105 +198,10 @@ proxy-groups:
       - 🇷🇺 v2|俄罗斯03|MPTCP|★☆☆
       - 🇷🇺 v2|俄罗斯04|MPTCP|★☆☆
       - 🇷🇺 v2|俄罗斯05|MPTCP|★☆☆
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 1200
-    proxies:
-      - v2|亚洲03|MPTCP|★★☆
-      - v2|亚洲02|MPTCP|★★☆
-      - v2|亚洲13|MPTCP|★★☆
-      - v2|亚洲12|MPTCP|★★☆
-      - v2|亚洲01|MPTCP|★★★
-      - v2|亚洲04|MPTCP|★★★
-      - v2|亚洲05|MPTCP|★★★
-      - 🇭🇰 v2|香港01|MPTCP|★★★
-      - 🇭🇰 v2|香港02|MPTCP|★★★
-      - 🇭🇰 v2|香港03|MPTCP|★★★
-      - 🇭🇰 v2|香港12|MPTCP|★★★
-      - 🇭🇰 v2|香港04|MPTCP|★★★
-      - 🇭🇰 v2|香港05|MPTCP|★★★
-      - 🇸🇬 v2|新加坡01|MPTCP|★★☆
-      - 🇸🇬 v2|新加坡02|MPTCP|★★☆
-      - 🇸🇬 v2|新加坡03|MPTCP|★★☆
-      - 🇸🇬 v2|新加坡13|MPTCP|★★☆
-      - 🇸🇬 v2|新加坡04|MPTCP|★★★
-      - 🇸🇬 v2|新加坡05|MPTCP|★★★
-      - 🇯🇵 v2|日本01|MPTCP|★★☆
-      - 🇯🇵 v2|日本02|MPTCP|★★☆
-      - 🇯🇵 v2|日本12|MPTCP|★★☆
-      - 🇯🇵 v2|日本03|MPTCP|★★☆
-      - 🇯🇵 v2|日本04|MPTCP|★★☆
-      - 🇯🇵 v2|日本05|MPTCP|★★☆
-      - 🇺🇲 v2|美国01|MPTCP|★★★
-      - 🇺🇲 v2|美国02|MPTCP|★★★
-      - 🇺🇲 v2|美国03|MPTCP|★★★
-      - 🇺🇲 v2|美国04|MPTCP|★★★
-      - 🇺🇲 v2|美国05|MPTCP|★★★
-      - 🇭🇰 v2|香港01|原生|★★★
-      - 🇭🇰 v2|香港02|原生|★★★
-      - 🇭🇰 v2|香港03|原生|★★★
-      - 🇭🇰 v2|香港12|原生|★★★
-      - 🇭🇰 v2|香港04|原生|★★★
-      - 🇭🇰 v2|香港05|原生|★★★
-      - 🇭🇰 v2|香港03|myTVSUPER|限速
-      - 🇭🇰 v2|香港03|YouTubePre|限速
-      - 🇨🇳 v2|台湾01|原生|★★☆
-      - 🇨🇳 v2|台湾02|原生|★★☆
-      - 🇨🇳 v2|台湾03|原生|★★☆
-      - 🇨🇳 v2|台湾04|原生|★★☆
-      - 🇨🇳 v2|台湾05|原生|★★☆
-      - 🇸🇬 v2|新加坡01|原生|★★☆
-      - 🇸🇬 v2|新加坡02|原生|★★☆
-      - 🇸🇬 v2|新加坡03|原生|★★☆
-      - 🇸🇬 v2|新加坡04|原生|★★☆
-      - 🇸🇬 v2|新加坡05|原生|★★☆
-      - 🇯🇵 v2|日本01|原生|★★☆
-      - 🇯🇵 v2|日本02|原生|★★☆
-      - 🇯🇵 v2|日本03|原生|★★☆
-      - 🇯🇵 v2|日本04|原生|★★☆
-      - 🇯🇵 v2|日本05|原生|★★☆
-      - 🇯🇵 v2|日本03|特供原生|限速
-      - 🇺🇲 v2|美国01|原生|★★☆
-      - 🇺🇲 v2|美国02|原生|★★☆
-      - 🇺🇲 v2|美国03|原生|★★☆
-      - 🇺🇲 v2|美国04|原生|★★☆
-      - 🇺🇲 v2|美国05|原生|★★☆
-      - v2|欧洲01|MPTCP|★☆☆
-      - v2|欧洲02|MPTCP|★☆☆
-      - v2|欧洲03|MPTCP|★☆☆
-      - v2|欧洲04|MPTCP|★☆☆
-      - v2|欧洲05|MPTCP|★☆☆
-      - v2|澳洲01|MPTCP|★☆☆
-      - v2|澳洲02|MPTCP|★☆☆
-      - v2|澳洲03|MPTCP|★☆☆
-      - v2|澳洲04|MPTCP|★☆☆
-      - v2|澳洲05|MPTCP|★☆☆
-      - 🇰🇷 v2|韩国01|MPTCP|★☆☆
-      - 🇰🇷 v2|韩国02|MPTCP|★☆☆
-      - 🇰🇷 v2|韩国03|MPTCP|★☆☆
-      - 🇰🇷 v2|韩国04|MPTCP|★☆☆
-      - 🇰🇷 v2|韩国05|MPTCP|★☆☆
-      - 🇺🇲 v2|南美01|MPTCP|★☆☆
-      - 🇺🇲 v2|南美02|MPTCP|★☆☆
-      - 🇺🇲 v2|南美03|MPTCP|★☆☆
-      - 🇺🇲 v2|南美04|MPTCP|★☆☆
-      - 🇺🇲 v2|南美05|MPTCP|★☆☆
-      - 🇮🇳 v2|印度01|MPTCP|★☆☆
-      - 🇮🇳 v2|印度02|MPTCP|★☆☆
-      - 🇮🇳 v2|印度03|MPTCP|★☆☆
-      - 🇮🇳 v2|印度04|MPTCP|★☆☆
-      - 🇮🇳 v2|印度05|MPTCP|★☆☆
-      - 🇷🇺 v2|俄罗斯01|MPTCP|★☆☆
-      - 🇷🇺 v2|俄罗斯02|MPTCP|★☆☆
-      - 🇷🇺 v2|俄罗斯03|MPTCP|★☆☆
-      - 🇷🇺 v2|俄罗斯04|MPTCP|★☆☆
-      - 🇷🇺 v2|俄罗斯05|MPTCP|★☆☆
   - name: 📲 电报消息
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -310,7 +214,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -324,7 +227,6 @@ proxy-groups:
     proxies:
       - 🎥 奈飞节点
       - 🚀 节点选择
-      - ♻️ 自动选择
       - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -350,7 +252,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
@@ -433,13 +334,11 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -454,7 +353,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -464,9 +362,7 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    type: select
     proxies:
       - 🇭🇰 v2|香港01|MPTCP|★★★
       - 🇭🇰 v2|香港02|MPTCP|★★★
@@ -483,9 +379,7 @@ proxy-groups:
       - 🇭🇰 v2|香港03|myTVSUPER|限速
       - 🇭🇰 v2|香港03|YouTubePre|限速
   - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    type: select
     proxies:
       - 🇯🇵 v2|日本01|MPTCP|★★☆
       - 🇯🇵 v2|日本02|MPTCP|★★☆
@@ -500,9 +394,7 @@ proxy-groups:
       - 🇯🇵 v2|日本05|原生|★★☆
       - 🇯🇵 v2|日本03|特供原生|限速
   - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    type: select
     proxies:
       - 🇺🇲 v2|美国01|MPTCP|★★★
       - 🇺🇲 v2|美国02|MPTCP|★★★
@@ -519,20 +411,8 @@ proxy-groups:
       - 🇺🇲 v2|南美03|MPTCP|★☆☆
       - 🇺🇲 v2|南美04|MPTCP|★☆☆
       - 🇺🇲 v2|南美05|MPTCP|★☆☆
-  - name: 🇨🇳 台湾节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - 🇨🇳 v2|台湾01|原生|★★☆
-      - 🇨🇳 v2|台湾02|原生|★★☆
-      - 🇨🇳 v2|台湾03|原生|★★☆
-      - 🇨🇳 v2|台湾04|原生|★★☆
-      - 🇨🇳 v2|台湾05|原生|★★☆
   - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    type: select
     proxies:
       - 🇸🇬 v2|新加坡01|MPTCP|★★☆
       - 🇸🇬 v2|新加坡02|MPTCP|★★☆
@@ -545,10 +425,16 @@ proxy-groups:
       - 🇸🇬 v2|新加坡03|原生|★★☆
       - 🇸🇬 v2|新加坡04|原生|★★☆
       - 🇸🇬 v2|新加坡05|原生|★★☆
+  - name: 🇨🇳 台湾节点
+    type: select
+    proxies:
+      - 🇨🇳 v2|台湾01|原生|★★☆
+      - 🇨🇳 v2|台湾02|原生|★★☆
+      - 🇨🇳 v2|台湾03|原生|★★☆
+      - 🇨🇳 v2|台湾04|原生|★★☆
+      - 🇨🇳 v2|台湾05|原生|★★☆
   - name: 🇰🇷 韩国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    type: select
     proxies:
       - 🇰🇷 v2|韩国01|MPTCP|★☆☆
       - 🇰🇷 v2|韩国02|MPTCP|★☆☆
@@ -560,18 +446,6 @@ proxy-groups:
     proxies:
       - DIRECT
 rules:
- - DOMAIN-SUFFIX,akamaized.net,📺 巴哈姆特
- - DOMAIN-SUFFIX,yesno.wtf,🚀 节点选择
- - DOMAIN-SUFFIX,immtel.com,🚀 节点选择
- - DOMAIN-SUFFIX,hxcy.moe,🎯 全球直连
- - DOMAIN-KEYWORD,notion,🚀 节点选择
- - DOMAIN-SUFFIX,windy.com,🚀 节点选择
- - DOMAIN-KEYWORD,rockstargames,🎮 游戏平台
- - DOMAIN-SUFFIX,nintendowifi.net,🎮 游戏平台
- - DOMAIN-SUFFIX,nintendo.com,🎮 游戏平台
- - DOMAIN-SUFFIX,nintendo.net,🎮 游戏平台
- - DOMAIN-SUFFIX,battlenet.com,🎮 游戏平台
- - DOMAIN-SUFFIX,battle.net,🎮 游戏平台
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
